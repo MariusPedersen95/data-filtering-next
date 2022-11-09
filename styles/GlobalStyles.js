@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 :root {
 
   //COLOR THEME
-  --primary: ;
+  --primary: #d82d20;
   --greey: ;
   --light-purple: ;
   --blue: ;
@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
   --breakpoint-xl: 1200px;
 
   //WIDTH
-  --maxWidth: 1200px;
+  --maxWidth: 700px;
 
   * {
     box-sizing: border-box;
@@ -49,7 +49,6 @@ export const GlobalStyle = createGlobalStyle`
   h1, h2, h3, h4, h5 {
     margin: 0;
     line-height: inherit;
-    text-align: center;
   }
 
   p {
