@@ -11,8 +11,8 @@ export const GlobalStyle = createGlobalStyle`
   --yellow: ;
   --orange: ;
   --red: ;
-  --white: ;
-  --black: ;
+  --white: #ffffff;
+  --black: #232323;
 
   //BREAKPOINTS 
   --breakpoint-xs: 0;
@@ -36,8 +36,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Open Sans", Helvetica Neue, sans-serif;
     //10px (16px = 1.6rem) (18px = 1.8rem)
     font-size: 10px;
     overflow-y: scroll;
@@ -47,8 +46,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5 {
-    margin: 0;
+    margin: 0 0 8px 0;
     line-height: inherit;
+    width: 100%
   }
 
   p {
