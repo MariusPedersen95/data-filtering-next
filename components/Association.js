@@ -29,13 +29,22 @@ const AssociationContent = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  h2 {
+    font-size: 1.1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
 `;
 
 const AssociationLogoContainer = styled.div`
   display: flex;
   flex-grow: 1;
-  height: 52px;
+  height: 40px;
   justify-content: end;
+  @media (min-width: 720px) {
+    height: 52px;
+  }
 `;
 
 const AssociationName = styled.span`
@@ -43,11 +52,27 @@ const AssociationName = styled.span`
   color: white;
   font-weight: bold;
   font-size: 16px;
-  padding: 10px 18px;
+  padding: 10px 10px;
   margin-right: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 120px;
+  @media (min-width: 720px) {
+    max-width: 100%;
+    padding: 10px 18px;
+    margin-right: 5px;
+    font-size: 16px;
+  }
 `;
 
 const Logo = styled.span`
   background-color: var(--primary);
   padding: 5px;
+  img {
+    height: 30px;
+    @media (min-width: 720px) {
+      height: 42;
+    }
+  }
 `;

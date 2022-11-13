@@ -57,10 +57,14 @@ export default function Home({ associations }) {
 
 const Main = styled.main`
   max-width: var(--maxWidth);
-  margin: auto;
+  margin: 0.5rem;
+  @media (min-width: 720px) {
+    margin: 0 auto;
+  }
 `;
 
 const FilterContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
+  margin: 2rem 0rem;
 `;

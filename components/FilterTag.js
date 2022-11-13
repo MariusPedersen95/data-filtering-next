@@ -27,7 +27,13 @@ const TagText = styled.span`
   background: var(--white);
   border: 1px solid var(--black);
   border-radius: 4px;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  &::first-letter {
+    text-transform: capitalize;
+  }
+  @media (min-width: 720px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const TagInput = styled.input`
