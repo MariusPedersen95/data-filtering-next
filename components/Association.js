@@ -60,7 +60,7 @@ const AssociationName = styled.span`
   max-width: 120px;
   @media (min-width: 720px) {
     max-width: 100%;
-    padding: 10px 18px;
+    padding: 15px 18px;
     margin-right: 5px;
     font-size: 16px;
   }
