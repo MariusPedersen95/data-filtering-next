@@ -72,7 +72,7 @@ const Logo = styled.span`
   img {
     height: 30px;
     @media (min-width: 720px) {
-      height: 42;
+      height: 42px;
     }
   }
 `;
